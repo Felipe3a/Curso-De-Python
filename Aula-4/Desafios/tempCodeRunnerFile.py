@@ -1,1 +1,0 @@
-numero01 + numero02
