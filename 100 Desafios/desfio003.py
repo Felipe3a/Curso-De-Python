@@ -1,4 +1,4 @@
-# Peograma que soma dois números
+# Programa que soma dois números
 
 
 n1 = int(input('Digite um número: '))
