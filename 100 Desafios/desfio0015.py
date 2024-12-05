@@ -3,18 +3,18 @@
 
 
 dias = int(input('Por quantos dias o carro foi alugado?'))
-kmRod = float(input('Quantos  KM foram rodados?'))
+kmIncial = float(input('KM inicial:'))
+kmFinal =float(input('Km final:'))
 
-
-
+quantidadeKm = kmFinal - kmIncial
 
 diaria = 60
 km = 0.15
 
-total = (dias*diaria ) + (km * kmRod)
+total = (dias*diaria ) + (km * quantidadeKm )
 
 print('Número de diárias {}. Total díarias: R${:.2f}'.format(dias,diaria*dias))
-print('Quilometros rodados {}. Total Quilometros: R${:.2f}.'.format(kmRod, kmRod*km))
+print('Quilometros rodados {}. Total Quilometros: R${:.2f}.'.format(quantidadeKm , quantidadeKm *km))
 
-print('Você utilizou o veículo por {} dias e rodou {} Km.\n  Total a pagar:R$ {:.2f} '.format(dias,kmRod,total))
+print('Você utilizou o veículo por {} dias e rodou {} Km.\n  Total a pagar:R$ {:.2f} '.format(dias,quantidadeKm ,total))
 
