@@ -1,1 +1,1 @@
-'Digite algo: '
+ # Incrementa o contador
