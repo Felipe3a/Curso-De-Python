@@ -7,5 +7,5 @@ print('Você nasceu  no dia ' + Dia + ' de ' + Mes + ' de ' + Ano + '. correto?'
 
 
 
-oma_das_notas = sum(notas)
+soma_das_notas = sum(notas)
 print(soma_das_notas)
