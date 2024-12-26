@@ -4,4 +4,4 @@
 cit = str(input('Em que cidade voê nasceu? ')).strip() #strip elimina os espaços nop inicio e no fim
 
 
-print(cit[:5].upper() == 'Santo')
+print(cit[:5].upper() == 'SANTO')
