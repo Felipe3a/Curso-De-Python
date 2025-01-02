@@ -15,3 +15,4 @@ input("Pressione Enter para encerrar...")
 
 pygame.quit()
 
+

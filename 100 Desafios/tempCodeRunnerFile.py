@@ -1,7 +1,15 @@
-# ------Programa que verifica so o nome da cidade começa com santo ouu não
+# Programa que recebe 3 retas e diz se elas podem formar um triangulo
+
+r1 = float(input('Qual o tamnho da primeira reta? '))
+r2 = float(input('Qual o tamnho da segunda reta? '))
+r3 = float(input('Qual o tamnho da terceira reta? '))
+
+soma = r1 + r2
 
 
-cit = str(input('Em que cidade voê nasceu? ')).strip() #strip elimina os espaços nop inicio e no fim
+if r3 < soma:
+    print('Forma um triangulo!')
+else:
+    print('Não forma um triangulo!')
 
 
-print(cit[:5].upper() == 'Santo')

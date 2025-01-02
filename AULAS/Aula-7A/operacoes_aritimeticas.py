@@ -10,3 +10,8 @@ e = n1**n2
 
 
 print('A soma é {}, o produto é {},e a divisao é  {}'.format(s,m,d))
+
+
+101520
+
+
